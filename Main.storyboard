@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cGc-4V-Hb1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="LZk-hR-ABM">
+            <objects>
+                <viewController storyboardIdentifier="GameViewController" id="cGc-4V-Hb1" customClass="GameViewController" customModule="Swift_TicTacToe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2fT-EP-T00"/>
+                        <viewControllerLayoutGuide type="bottom" id="PVK-Ed-we4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pxM-nY-dc3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i30-Ao-j5U" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="235.5" y="293.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Tkm-9y-Sj9"/>
+                                    <constraint firstAttribute="width" constant="80" id="wsb-HL-eYJ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksr-ov-PMk" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="59.5" y="293.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="FkY-eY-t7g"/>
+                                    <constraint firstAttribute="width" constant="80" id="kKi-QO-EOj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6D-kS-GKm" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="147.5" y="205.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="cbI-64-4r1"/>
+                                    <constraint firstAttribute="width" constant="80" id="dq4-rd-DnX"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lAl-PG-kGP" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="235.5" y="205.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="13a-cd-J4l"/>
+                                    <constraint firstAttribute="height" constant="80" id="IT0-pt-Gc4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVU-wG-wXX" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="59.5" y="205.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="DvW-i9-Dk5"/>
+                                    <constraint firstAttribute="height" constant="80" id="x1u-fL-bCx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIe-R6-2rY" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="147.5" y="381.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="RVI-v4-kLS"/>
+                                    <constraint firstAttribute="height" constant="80" id="zj0-ge-fgc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cya-tu-hkR" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="235.5" y="381.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="96o-14-xyH"/>
+                                    <constraint firstAttribute="height" constant="80" id="UdZ-lj-3wC"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MCB-Jy-4ym" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="59.5" y="381.5" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="6fB-kl-GwW"/>
+                                    <constraint firstAttribute="height" constant="80" id="gpA-Ua-Ur8"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn: Player E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dg7-z4-Ay9">
+                                <rect key="frame" x="16" y="66" width="343" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="54y-qb-lL3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="X: 1    O: 1   TIES: 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NM-eH-Ppf">
+                                <rect key="frame" x="16" y="603" width="343" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="u82-eP-Jxv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic Tac Toe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3w-jQ-qOH">
+                                <rect key="frame" x="16" y="40" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IyN-xd-5lv" customClass="GridItemView" customModule="Swift_TicTacToe" customModuleProvider="target">
+                                <rect key="frame" x="147" y="293" width="80" height="80"/>
+                                <color key="backgroundColor" red="0.87148232979999996" green="0.27359626349999999" blue="0.00025193904429999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="mJb-KC-EhW"/>
+                                    <constraint firstAttribute="width" constant="80" id="x28-I6-fpm"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTj-uN-m4S">
+                                <rect key="frame" x="55" y="543" width="89" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="newGameButtonPressed:" destination="cGc-4V-Hb1" eventType="touchUpInside" id="hZp-WE-DPf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIG-ui-DeI">
+                                <rect key="frame" x="253" y="543" width="45" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="cGc-4V-Hb1" eventType="touchUpInside" id="E3D-oI-nEb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1NM-eH-Ppf" firstAttribute="top" secondItem="KIG-ui-DeI" secondAttribute="bottom" constant="30" id="0a0-fr-D6Q"/>
+                            <constraint firstItem="IyN-xd-5lv" firstAttribute="leading" secondItem="ksr-ov-PMk" secondAttribute="trailing" constant="8" id="1ia-f8-kzC"/>
+                            <constraint firstItem="cya-tu-hkR" firstAttribute="top" secondItem="i30-Ao-j5U" secondAttribute="bottom" constant="8" id="1nq-uj-NC2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KIG-ui-DeI" secondAttribute="trailing" constant="61" id="38j-xi-moq"/>
+                            <constraint firstItem="lAl-PG-kGP" firstAttribute="leading" secondItem="e6D-kS-GKm" secondAttribute="trailing" constant="8" id="6TH-Wm-xH9"/>
+                            <constraint firstItem="dg7-z4-Ay9" firstAttribute="top" secondItem="2fT-EP-T00" secondAttribute="bottom" constant="46" id="BZk-t4-ALX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="a3w-jQ-qOH" secondAttribute="trailing" id="CHU-tf-hYF"/>
+                            <constraint firstItem="IyN-xd-5lv" firstAttribute="centerY" secondItem="pxM-nY-dc3" secondAttribute="centerY" id="E5u-0H-b2A"/>
+                            <constraint firstItem="PVK-Ed-we4" firstAttribute="top" secondItem="1NM-eH-Ppf" secondAttribute="bottom" constant="20" id="KtT-ZA-Q4f"/>
+                            <constraint firstItem="vTj-uN-m4S" firstAttribute="leading" secondItem="pxM-nY-dc3" secondAttribute="leadingMargin" constant="39" id="Kvi-Oc-Wcc"/>
+                            <constraint firstItem="IyN-xd-5lv" firstAttribute="centerX" secondItem="pxM-nY-dc3" secondAttribute="centerX" id="Nl7-qj-7fg"/>
+                            <constraint firstItem="KIG-ui-DeI" firstAttribute="top" secondItem="cya-tu-hkR" secondAttribute="bottom" constant="81.5" id="OpU-jY-Eg9"/>
+                            <constraint firstItem="a3w-jQ-qOH" firstAttribute="leading" secondItem="pxM-nY-dc3" secondAttribute="leadingMargin" id="Pqv-2M-ZXB"/>
+                            <constraint firstItem="cya-tu-hkR" firstAttribute="leading" secondItem="dIe-R6-2rY" secondAttribute="trailing" constant="8" id="RzN-ck-HLz"/>
+                            <constraint firstItem="KIG-ui-DeI" firstAttribute="leading" secondItem="vTj-uN-m4S" secondAttribute="trailing" constant="109" id="SbL-bk-a1W"/>
+                            <constraint firstItem="1NM-eH-Ppf" firstAttribute="top" secondItem="KIG-ui-DeI" secondAttribute="bottom" constant="26" id="TsY-Lx-Vnf"/>
+                            <constraint firstItem="dg7-z4-Ay9" firstAttribute="centerX" secondItem="pxM-nY-dc3" secondAttribute="centerX" id="XJg-RF-SMy"/>
+                            <constraint firstItem="ksr-ov-PMk" firstAttribute="centerY" secondItem="pxM-nY-dc3" secondAttribute="centerY" id="XoE-RF-egd"/>
+                            <constraint firstItem="i30-Ao-j5U" firstAttribute="leading" secondItem="IyN-xd-5lv" secondAttribute="trailing" constant="8" id="c3G-2x-VtX"/>
+                            <constraint firstItem="dIe-R6-2rY" firstAttribute="top" secondItem="IyN-xd-5lv" secondAttribute="bottom" constant="8" id="cGy-qy-R4y"/>
+                            <constraint firstItem="1NM-eH-Ppf" firstAttribute="top" secondItem="vTj-uN-m4S" secondAttribute="bottom" constant="26" id="eWM-6x-KaH"/>
+                            <constraint firstItem="ksr-ov-PMk" firstAttribute="top" secondItem="PVU-wG-wXX" secondAttribute="bottom" constant="8" id="ebt-sW-llz"/>
+                            <constraint firstItem="e6D-kS-GKm" firstAttribute="leading" secondItem="PVU-wG-wXX" secondAttribute="trailing" constant="8" id="fZD-0n-KB8"/>
+                            <constraint firstItem="a3w-jQ-qOH" firstAttribute="top" secondItem="2fT-EP-T00" secondAttribute="bottom" constant="20" id="g3u-0D-vnh"/>
+                            <constraint firstItem="i30-Ao-j5U" firstAttribute="centerY" secondItem="pxM-nY-dc3" secondAttribute="centerY" id="i2F-fx-YAv"/>
+                            <constraint firstItem="e6D-kS-GKm" firstAttribute="centerX" secondItem="pxM-nY-dc3" secondAttribute="centerX" id="k32-gS-pxj"/>
+                            <constraint firstItem="dIe-R6-2rY" firstAttribute="leading" secondItem="MCB-Jy-4ym" secondAttribute="trailing" constant="8" id="m03-hk-W2I"/>
+                            <constraint firstItem="MCB-Jy-4ym" firstAttribute="top" secondItem="ksr-ov-PMk" secondAttribute="bottom" constant="8" id="n1p-ih-jEL"/>
+                            <constraint firstItem="IyN-xd-5lv" firstAttribute="top" secondItem="e6D-kS-GKm" secondAttribute="bottom" constant="8" id="nvO-mY-4Tc"/>
+                            <constraint firstItem="PVK-Ed-we4" firstAttribute="top" secondItem="1NM-eH-Ppf" secondAttribute="bottom" constant="40" id="pHK-A3-Lg0"/>
+                            <constraint firstItem="i30-Ao-j5U" firstAttribute="top" secondItem="lAl-PG-kGP" secondAttribute="bottom" constant="8" id="uue-QN-GAf"/>
+                            <constraint firstItem="dIe-R6-2rY" firstAttribute="centerX" secondItem="pxM-nY-dc3" secondAttribute="centerX" id="vfp-j1-Lqu"/>
+                            <constraint firstItem="vTj-uN-m4S" firstAttribute="top" secondItem="MCB-Jy-4ym" secondAttribute="bottom" constant="81.5" id="xlK-lg-ok3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameScoreLabel" destination="1NM-eH-Ppf" id="RO4-Kr-2Bu"/>
+                        <outlet property="gameStatusLabel" destination="dg7-z4-Ay9" id="jYu-xZ-pVG"/>
+                        <outlet property="gameTitleLabel" destination="a3w-jQ-qOH" id="rDB-5N-scK"/>
+                        <outlet property="gridItemView_0" destination="PVU-wG-wXX" id="cwt-Ng-DX8"/>
+                        <outlet property="gridItemView_1" destination="e6D-kS-GKm" id="vhp-eK-twr"/>
+                        <outlet property="gridItemView_2" destination="lAl-PG-kGP" id="YjM-rK-9t2"/>
+                        <outlet property="gridItemView_3" destination="ksr-ov-PMk" id="hb5-69-bXJ"/>
+                        <outlet property="gridItemView_4" destination="IyN-xd-5lv" id="FMI-v8-lhv"/>
+                        <outlet property="gridItemView_5" destination="i30-Ao-j5U" id="usa-sT-yfo"/>
+                        <outlet property="gridItemView_6" destination="MCB-Jy-4ym" id="Prs-s4-iOj"/>
+                        <outlet property="gridItemView_7" destination="dIe-R6-2rY" id="WkQ-0I-qX3"/>
+                        <outlet property="gridItemView_8" destination="cya-tu-hkR" id="apz-rm-5H4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ihW-L4-W5Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-266.39999999999998" y="192.95352323838082"/>
+        </scene>
+    </scenes>
+</document>
